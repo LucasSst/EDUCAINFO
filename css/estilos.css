@@ -1,0 +1,186 @@
+/***
+Layout
+*/
+section {
+	width: 100%;
+}
+
+html,body,#home,#login, #sobre,#como-funciona-sessao{
+	height: 100%;
+}
+
+body{
+	background-image: url(../imagens/capa3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*
+ Classes Globais
+
+*/
+
+
+.fundo{
+	background-color: white;
+	opacity: 0.9;
+	padding-bottom: 35px;
+	border-radius: 15px 5px;
+
+}
+
+
+
+
+/*
+ Barra Navegação Principal
+*/
+
+
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 10px 12px;
+}
+
+nav.nav-transparente{
+	padding: 15px 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+ .navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #9bf0e1;
+}
+
+
+
+.navbar-light .navbar-toggler {
+	color: rgba(255, 255, 255,.5);
+	border-color:rgba(255, 255, 255, 0.5);
+}
+
+
+/*
+Capa Inicio
+*/
+
+.centralizar{
+	text-align: center;
+}
+section#home{
+	background-image: url(../imagens/capa3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	padding: 10px 20px;
+}
+
+
+
+/*Login Página
+
+**/
+
+
+.formatacao-texto-login{
+	font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.small{
+	  font-size: smaller;
+}
+
+
+
+
+
+/*************************************************
+
+Sobre-nos
+
+
+*/
+
+section#sobre{
+	background-image: url(../imagens/sobre-plano-fundo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+/**************************************************
+
+Como funciona
+background-image: url(../imagens/fundo-preto.png);
+
+*/
+#como-funciona{
+	background-image: url(../imagens/como-funciona-fundo-6.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+
+
+
+/**********************
+
+Cadastrar
+
+*/
+
+
+#top-margin-cadastrar{
+	margin-top: 25%;
+}
+
+
+
+
+/*******************
+ Perfil
+
+*/
+
+
+.fundo-perfil{
+	
+	opacity: 1;
+	background-color: #f6f6f6;
+}
+
+.borda-perfil{
+	border: black 10px  solid;
+	margin: 100px;
+}
+
+nav.navbar.navbar-expand-sm.navbar-light.nav-transparente.alteracao-padding {
+	padding-bottom: 0px;
+}
+
+header nav.navbar.navbar-expand-sm.navbar-light.alteracao-padding-topo{
+	padding-top: 0px;
+}
